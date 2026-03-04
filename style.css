@@ -1,22 +1,36 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  background-color: #36393e;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  color: #7289da;
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-p {
-  line-height: 1.6;
-  padding: 10px;
+.main-content-box {
+    padding: 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
 }
-
-/**
-  https://www.color-hex.com/color-palette/28549
-	#36393e	(54,57,62) - background-color
-  #282b30	(40,43,48)
-
-  -Aquaotter 
-  @todo Use better color theme, when website is out!
-*/

@@ -1,0 +1,12 @@
+.player-head img {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.player-head:hover img {
+  border: 2px solid #ffcc66;
+  box-shadow: 0 0 10px rgba(255, 200, 100, 0.7);
+}
